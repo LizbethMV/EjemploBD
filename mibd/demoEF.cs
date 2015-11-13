@@ -10,5 +10,8 @@ namespace Ejercicio1.mibd
     public class demoEF : DbContext
     { //Empleado es el nombre de la clase y el "Empleados" nos referiremos a los objetos"
        public DbSet<Empleado> Empleados { get; set; }
+        public DbSet <Departamentos> Departamentos {get; set;}
+
     }
+
 }

@@ -34,3 +34,4 @@ C:\respaldo\nueva practica\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.g.resource
 C:\respaldo\nueva practica\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Migrations.empleadoTabla.resources
 C:\respaldo\nueva practica\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Properties.Resources.resources
 C:\respaldo\nueva practica\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csproj.GenerateResource.Cache
+C:\respaldo\nueva practica\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.Migrations.deps.resources
