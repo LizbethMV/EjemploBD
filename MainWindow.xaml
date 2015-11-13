@@ -1,0 +1,20 @@
+﻿<Window x:Class="Ejercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="597.097">
+    <Grid>
+        <TextBox x:Name="txtnombre" HorizontalAlignment="Left" Height="23" Margin="166,74,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Enviar" HorizontalAlignment="Left" Margin="344,102,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox x:Name="sueldo" HorizontalAlignment="Left" Height="23" Margin="166,136,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="80,77,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sueldo" HorizontalAlignment="Left" Margin="80,136,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="88,28,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="23" Margin="166,28,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Actualizar" HorizontalAlignment="Left" Margin="344,34,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="344,159,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <Button Content="Consultar por ID" HorizontalAlignment="Left" Margin="451,28,0,0" VerticalAlignment="Top" Width="97" Height="38" Click="Button_Click_4"/>
+        <Button Content="Consultar todo" HorizontalAlignment="Left" Margin="451,102,0,0" VerticalAlignment="Top" Width="97" Height="36" Click="Button_Click_5"/>
+        <DataGrid x:Name="dbGrid" HorizontalAlignment="Left" Margin="80,201,0,0" VerticalAlignment="Top" Height="69" Width="118"/>
+
+    </Grid>
+</Window>
