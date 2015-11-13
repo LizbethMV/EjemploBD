@@ -71,6 +71,14 @@ namespace Ejercicio1 {
         #line default
         #line hidden
         
+        
+        #line 21 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.ComboBox Depa;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -152,6 +160,21 @@ namespace Ejercicio1 {
             return;
             case 9:
             this.dbGrid = ((System.Windows.Controls.DataGrid)(target));
+            return;
+            case 10:
+            this.Depa = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 21 "..\..\MainWindow.xaml"
+            this.Depa.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.ComboBox_SelectionChanged_1);
+            
+            #line default
+            #line hidden
+            
+            #line 21 "..\..\MainWindow.xaml"
+            this.Depa.Loaded += new System.Windows.RoutedEventHandler(this.Depa_Loaded);
+            
+            #line default
+            #line hidden
             return;
             }
             this._contentLoaded = true;
